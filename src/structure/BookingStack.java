@@ -47,7 +47,7 @@ public class BookingStack {
         return booking;
     }
 
-    //View top booking
+    //top booking
     public Booking peek() {
 
         if(top == null){
