@@ -20,29 +20,17 @@ public class Booking {
     private final List<String> seatNumbers;
     private Status status;
 
-    // Constructor
-    public Booking(String userID, String startLocation, String destination, int totalSeats) {
-        this(userID, "UNASSIGNED", startLocation, destination, totalSeats, Collections.<String>emptyList());
-    }
 
-    // to use in reservation system
-    public Booking(String userID, String trainID, String startLocation, String destination, int totalSeats) {
-        this(userID, trainID, startLocation, destination, totalSeats,
-                Collections.<String>emptyList());
-    }
-
-    // Stores the exact seats so the Set ADT can prevent duplicate allocation.
     public Booking(String userID, String trainID, String startLocation, String destination, int totalSeats, List<String> seatNumbers) {
+
         this.userID = requireText(userID, "User ID");
         this.trainID = requireText(trainID, "Train ID");
         this.startLocation = requireText(startLocation, "Start location");
         this.destination = requireText(destination, "Destination");
-
         if (totalSeats <= 0) {
             throw new IllegalArgumentException("Total seats must be higher than 0.");
         }
-
-        // generate a booking id after validation
+        // Generate the ID only after validation, so invalid bookings do not consume an ID.
         this.bookingID = String.format("B%04d", nextBookingNumber++);
         this.totalSeats = totalSeats;
         this.seatNumbers = seatNumbers == null
@@ -88,6 +76,7 @@ public class Booking {
         this.status = status;
     }
 
+    // this is uesd for make sure the answers are not empty
     private static String requireText(String value, String fieldName) {
         if (value == null || value.trim().isEmpty()) {
             throw new IllegalArgumentException(fieldName + " cannot be empty.");
