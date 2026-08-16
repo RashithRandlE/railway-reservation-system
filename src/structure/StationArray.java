@@ -41,8 +41,6 @@ public class StationArray {
 
         stations[size] = station;
         size++;
-
-        System.out.println("Station: " + station.getStationName() + " added successfully.");
         return true;
     }
 

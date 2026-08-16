@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26b4c8dd-5d3c-43af-9d32-6b9b5970c848" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RailwayReservationSystem_G14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/RailwayReservationSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structure/TrainSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/AdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/AdminMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/UserMenu.java" afterDir="false" />
-    </list>
+    <list default="true" id="26b4c8dd-5d3c-43af-9d32-6b9b5970c848" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +99,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -124,7 +115,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/randil/IdeaProjects/RailwayReservationSystem_G14/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -153,6 +144,7 @@
       <workItem from="1786622059359" duration="205000" />
       <workItem from="1786622305255" duration="22000" />
       <workItem from="1786648753191" duration="1431000" />
+      <workItem from="1786882077756" duration="301000" />
     </task>
     <servers />
   </component>
