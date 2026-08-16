@@ -70,6 +70,25 @@ public class RailwayReservationSystem {
         addTrain(new Train("T007", "Hill Country Express", "Kandy", "Badulla", 250, 180));
         addTrain(new Train("T008", "Badulla Night Mail", "Badulla", "Colombo Fort", 400, 250));
         addTrain(new Train("T009", "Kandy-Colombo Intercity", "Kandy", "Colombo Fort", 300, 220));
+
+        // Add dummy bookings directly to the AVL tree for traversal testing
+        Booking b1 = new Booking("randil", "T001", "Colombo Fort", "Badulla", 2, Arrays.asList("1", "2"));
+        Booking b2 = new Booking("kaveesha", "T002", "Colombo Fort", "Kandy", 1, Arrays.asList("5"));
+        Booking b3 = new Booking("user3", "T003", "Colombo Fort", "Polgahawela", 3, Arrays.asList("10", "11", "12"));
+        Booking b4 = new Booking("abc234", "T004", "Gampaha", "Kandy", 2, Arrays.asList("20", "21"));
+        Booking b5 = new Booking("osh", "T005", "Colombo Fort", "Badulla", 1, Arrays.asList("42"));
+        
+        bookings.insert(b1);
+        bookings.insert(b2);
+        bookings.insert(b3);
+        bookings.insert(b4);
+        bookings.insert(b5);
+        
+        bookingRecords.add(b1);
+        bookingRecords.add(b2);
+        bookingRecords.add(b3);
+        bookingRecords.add(b4);
+        bookingRecords.add(b5);
     }
 
 
