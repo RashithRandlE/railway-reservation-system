@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26b4c8dd-5d3c-43af-9d32-6b9b5970c848" name="Changes" comment="" />
+    <list default="true" id="26b4c8dd-5d3c-43af-9d32-6b9b5970c848" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RailwayReservationSystem_G14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/RailwayReservationSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structure/TrainSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/AdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/AdminMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/UserMenu.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,61 +36,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000756657531702" />
-      <entry key="MS500" value="1.149892489223889" />
-      <entry key="S2" value="1.6222220663953308" />
-      <entry key="S5" value="1.8304558254722347" />
-      <entry key="S10" value="1.9703176648671603" />
-      <entry key="S30" value="2.734610536686933" />
-      <entry key="S60" value="4.221758952301675" />
-      <entry key="M2" value="7.466114475222201" />
-      <entry key="M5" value="19.540898265438702" />
-      <entry key="M10" value="39.45558339441618" />
-      <entry key="M15" value="57.30740773817615" />
-      <entry key="M30" value="98.58978901770227" />
-      <entry key="H1" value="144.81691526223497" />
-      <entry key="H2" value="183.17096531625262" />
-      <entry key="H4" value="208.68033840601643" />
-      <entry key="D1" value="234.31146182897317" />
-      <entry key="W1" value="239.17490475163126" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000007165" />
+      <entry key="S30" value="1.0001865947575852" />
+      <entry key="S60" value="1.0255191177841605" />
+      <entry key="M2" value="1.389411799832066" />
+      <entry key="M5" value="4.090042388947479" />
+      <entry key="M10" value="12.293810344129621" />
+      <entry key="M15" value="24.04170457949862" />
+      <entry key="M30" value="62.167925223659616" />
+      <entry key="H1" value="116.46595106827886" />
+      <entry key="H2" value="167.86122219944576" />
+      <entry key="H4" value="204.56776669470347" />
+      <entry key="D1" value="243.20471197539672" />
+      <entry key="W1" value="250.71951802428728" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.324188936700943E-134" />
-      <entry key="S5" value="4.6195118871102217E-54" />
-      <entry key="S10" value="2.9815473258960563E-27" />
-      <entry key="S30" value="2.7491670050569763E-9" />
-      <entry key="S60" value="9.809905686230536E-5" />
-      <entry key="M2" value="0.019459625940635654" />
-      <entry key="M5" value="0.5231621787673767" />
-      <entry key="M10" value="2.139698127095999" />
-      <entry key="M15" value="3.9387416682746244" />
-      <entry key="M30" value="8.073183048399594" />
-      <entry key="H1" value="12.1323436571781" />
-      <entry key="H2" value="15.094051130454647" />
-      <entry key="H4" value="16.908056135163502" />
-      <entry key="D1" value="18.629879925660525" />
-      <entry key="W1" value="18.946568770443516" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="2.1162260176617727E-152" />
+      <entry key="S10" value="2.0180163821643913E-76" />
+      <entry key="S30" value="1.1203716642087802E-25" />
+      <entry key="S60" value="6.262465246085329E-13" />
+      <entry key="M2" value="1.5548007312420102E-6" />
+      <entry key="M5" value="0.012013026611081746" />
+      <entry key="M10" value="0.3242354947112612" />
+      <entry key="M15" value="1.1195140042155036" />
+      <entry key="M30" value="4.30408476908593" />
+      <entry key="H1" value="8.85855144822566" />
+      <entry key="H2" value="12.897775727435015" />
+      <entry key="H4" value="15.62961150201531" />
+      <entry key="D1" value="18.387349854965095" />
+      <entry key="W1" value="18.91113445977603" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.568487770628402E-5" />
-      <entry key="MS500" value="0.17848933822788685" />
-      <entry key="S2" value="1.0334468354505246" />
-      <entry key="S5" value="1.5306669167418814" />
-      <entry key="S10" value="1.8010416890566865" />
-      <entry key="S30" value="2.636372749055138" />
-      <entry key="S60" value="4.124623094316808" />
-      <entry key="M2" value="7.39632969230754" />
-      <entry key="M5" value="19.98994172687743" />
-      <entry key="M10" value="41.531322842644634" />
-      <entry key="M15" value="61.18780184145105" />
-      <entry key="M30" value="106.6156681775814" />
-      <entry key="H1" value="156.91545006883928" />
-      <entry key="H2" value="198.24389957157618" />
-      <entry key="H4" value="225.57643600711782" />
-      <entry key="D1" value="252.93911432648517" />
-      <entry key="W1" value="258.12114896798136" />
+      <entry key="MS100" value="0.1907824011200699" />
+      <entry key="MS500" value="0.7179722553117177" />
+      <entry key="S2" value="0.9205066186324345" />
+      <entry key="S5" value="0.967410431881117" />
+      <entry key="S10" value="0.9835702475586199" />
+      <entry key="S30" value="0.9946796513814522" />
+      <entry key="S60" value="1.0227546954419837" />
+      <entry key="M2" value="1.3879388545624456" />
+      <entry key="M5" value="4.0994530238196925" />
+      <entry key="M10" value="12.607686625354903" />
+      <entry key="M15" value="25.144107521813876" />
+      <entry key="M30" value="66.44647309293501" />
+      <entry key="H1" value="125.29964117169136" />
+      <entry key="H2" value="180.74086131887637" />
+      <entry key="H4" value="220.18627646423278" />
+      <entry key="D1" value="261.589855324433" />
+      <entry key="W1" value="269.63032737900323" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -94,12 +104,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.TestStructures.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "v2",
@@ -112,6 +124,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/randil/IdeaProjects/RailwayReservationSystem_G14/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }

@@ -5,10 +5,10 @@ import java.util.List;
 
 public class TrainLinkedList {
 
-    private TrainNode head;
+    TrainNode head;
     private int size;
     // Node in the chain
-    private  static class TrainNode {
+    static class TrainNode {
 
 
         Train train;      // the cargo
