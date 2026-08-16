@@ -69,7 +69,7 @@ public class Train {
         System.out.println("Destination: " + this.destination);
         System.out.println("Total Seats: " + this.totalSeats);
         System.out.println("Available Seats: " + this.availableSeats);
-
+        System.out.println("--------------------------------------------------");
     }
 
     private static String requireText(String value, String fieldName) {
